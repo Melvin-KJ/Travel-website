@@ -213,3 +213,31 @@ ul li a{
 .bd img:hover{
     transform: scale(1.05);
 }
+
+/* features styles*/
+.service-card{
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.service-card img{
+    width:100%;
+    height: auto;
+}
+
+.service-title{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.learn-more{
+    font-size: 16px;
+    color: #6c63ff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
