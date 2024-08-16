@@ -174,3 +174,27 @@ ul li a{
     transition: background-color 0.3s;
 
 }
+/* tours styles */
+
+.more-details-btn{
+    margin-top:10px;
+}
+
+.festivals-section img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+/*to make image fit in the carousel slide*/
+.carousel-img{
+    height: 600px;
+    object-fit: cover;
+}
+
+@media (max-width:768px){
+    .carousel-img{
+        height: 400px;
+    }
+}
+
+
